@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/jorge/Documentos/cursos/udemy/Cursos/dotnet/webApiAutores/webapiautores/webApiAutores/webApiAutores.csproj": {}
+    "C:\\Users\\acomo\\OneDrive\\Documents\\cursos\\dotnet\\Curso WebApiPropio\\webapiautores\\webApiAutores\\webApiAutores.csproj": {}
   },
   "projects": {
-    "/home/jorge/Documentos/cursos/udemy/Cursos/dotnet/webApiAutores/webapiautores/webApiAutores/webApiAutores.csproj": {
+    "C:\\Users\\acomo\\OneDrive\\Documents\\cursos\\dotnet\\Curso WebApiPropio\\webapiautores\\webApiAutores\\webApiAutores.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jorge/Documentos/cursos/udemy/Cursos/dotnet/webApiAutores/webapiautores/webApiAutores/webApiAutores.csproj",
+        "projectUniqueName": "C:\\Users\\acomo\\OneDrive\\Documents\\cursos\\dotnet\\Curso WebApiPropio\\webapiautores\\webApiAutores\\webApiAutores.csproj",
         "projectName": "webApiAutores",
-        "projectPath": "/home/jorge/Documentos/cursos/udemy/Cursos/dotnet/webApiAutores/webapiautores/webApiAutores/webApiAutores.csproj",
-        "packagesPath": "/home/jorge/.nuget/packages/",
-        "outputPath": "/home/jorge/Documentos/cursos/udemy/Cursos/dotnet/webApiAutores/webapiautores/webApiAutores/obj/",
+        "projectPath": "C:\\Users\\acomo\\OneDrive\\Documents\\cursos\\dotnet\\Curso WebApiPropio\\webapiautores\\webApiAutores\\webApiAutores.csproj",
+        "packagesPath": "C:\\Users\\acomo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\acomo\\OneDrive\\Documents\\cursos\\dotnet\\Curso WebApiPropio\\webapiautores\\webApiAutores\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/jorge/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\acomo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -38,6 +38,16 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -49,7 +59,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -61,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.116/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }
